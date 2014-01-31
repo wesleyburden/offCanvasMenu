@@ -1,0 +1,51 @@
+<html>
+<head>
+	<title>Stripped Back Responsive Off-Canvas Navigation</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset='utf-8'>
+	<link type="text/css" rel="stylesheet" href="demo.css">	
+	<link type="text/css" rel="stylesheet" href="offCanvasMenu.css">
+</head>
+<body>
+	<div id="page-wrapper">
+		<header class="site-header" role="banner">
+			<h1 class="site-title">Stripped Back Responsive Off-Canvas Navigation</h1>
+			<a href="#" id="open-menu" class="open-menu">Open Menu</a>
+			<nav class="main-menu">
+				<h1>Demo Navigation</h1>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<a href="#" id="close-menu" class="close-menu">Close Menu</a>
+			</nav>
+		</header>
+		<main class="site-content" id="site-content" role="main">
+			<h1>Introduction</h1>
+			<p>I've put this together as a starting point for development.  You won't find any pretty design but the functionailty should be working ready for you to pull into your project.  It's designed to be as light as possible, progressively enhanced and all that good stuff.</p>
+			<h2>Usage</h2>
+			<ol>
+				<li>Make sure you have a <code>div#page-wrapper</code> around all your content as this is what shifts over when the menu is activated.  Generally this would be best as the first element directly after <code><body></code></li>
+				<li>Enclose your menu in <code>nav.main-menu</code>.  This is what will be pushed off screen using some absolute positioning*.</li>
+			</ol>
+			
+			<p>* The absolute positioning allows for a height of 100% making for a full height background to the menu area.  Be careful declaring position on any of .main-menu's parent elements as this will affect it's positioning.  <code>position: relative;</code> is set on <code>#page-wrapper</code>.</p>
+			
+			<h2>Roadmap</h2>
+			<p>Add swipe close (and maybe open?) functionality for touch devices</p> 
+			
+			<h2>Credits</h2>
+			<p>This is heavily based on <a href="http://dbushell.com/‎">David Bushell's</a> code from <a href="http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/">this article on Smashing Magazine</a></p>
+		</main>
+		<footer class="site-footer">
+			<p>Made by <a href="https://twitter.com/wesleyburden">Wesley Burden</a> with help from cleverer people than me.</p>		
+		</footer>
+	</div>
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="jquery.offCanvasMenu.js"></script>
+</body>
+</html>
+
