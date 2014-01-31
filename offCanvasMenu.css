@@ -3,7 +3,7 @@
     the opertaion of the menu.
 \*------------------------------------*/	
 /* A div that should wrap everything you want to shift when the menu comes inot view */
-#page-wrapper {
+#ocm-page-wrapper {
 	position: relative;
 	width: 100%;
 	left: 0;
@@ -11,15 +11,15 @@
 }
 
 /* Hide and reveal if js is available */
-.close-menu,
-.open-menu {
+.ocm-open-btn,
+.ocm-close-btn {
 	display: none;
 }
 
 /* These styles push the nav tag off canvas and show it when the .active-menu class is added to the body by jQuery.  */
 @media screen and (min-width: 0) and (max-width: 40em) {
 
-	.js .main-menu {
+	.js .ocm-main-menu {
 		position:absolute;
 		height: 100%;
 		width: 70%;
@@ -28,21 +28,16 @@
 		background: #f0f0f0;
 	}
 	
-	.js .active-menu #page-wrapper {
+	.is_active-ocm #ocm-page-wrapper {
 		left: 70%;
 	}
 	
-	.js .close-menu,
-	.js .open-menu {
+	.js .ocm-open-btn,
+	.js .ocm-close-btn {
 		display:inline;
 	}
 	
-}
-
-/* Hide the open/close links past your choosen breakpoint  */
-@media screen and (min-width: 40.0625em) {
-	
-
-.click-to-close {
-	cursor: pointer;
+	.ocm-page-close {
+		cursor: pointer;
+	}
 }

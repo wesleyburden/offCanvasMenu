@@ -8,11 +8,11 @@
 	<link type="text/css" rel="stylesheet" href="offCanvasMenu.css">
 </head>
 <body>
-	<div id="page-wrapper">
+	<div id="ocm-page-wrapper">
 		<header class="site-header" role="banner">
 			<h1 class="site-title">Stripped Back Responsive Off-Canvas Navigation</h1>
-			<a href="#" id="open-menu" class="open-menu">Open Menu</a>
-			<nav class="main-menu">
+			<a href="#" id="ocm-open-btn" class="ocm-open-btn">Open Menu</a>
+			<nav class="ocm-main-menu">
 				<h1>Demo Navigation</h1>
 				<ul>
 					<li><a href="#">Home</a></li>
@@ -20,7 +20,7 @@
 					<li><a href="#">About</a></li>
 					<li><a href="#">Contact</a></li>
 				</ul>
-				<a href="#" id="close-menu" class="close-menu">Close Menu</a>
+				<a href="#" id="ocm-close-btn" class="ocm-close-btn">Close Menu</a>
 			</nav>
 		</header>
 		<main class="site-content" id="site-content" role="main">
@@ -45,7 +45,14 @@
 		</footer>
 	</div>
 <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-<script type="text/javascript" src="jquery.offCanvasMenu.js"></script>
+<script type="text/javascript" src="jquery.offCanvasMenu-0.1.js"></script>
+<script>
+$(document).ready(function() {
+
+	OffCanvasMenu.init();		
+
+});
+</script>
 </body>
 </html>
 
