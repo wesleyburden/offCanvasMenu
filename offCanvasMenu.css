@@ -2,7 +2,16 @@
     The css in this file is essential to 
     the opertaion of the menu.
 \*------------------------------------*/	
-/* A div that should wrap everything you want to shift when the menu comes inot view */
+
+/* Stop scroll bars when the menu is opened */
+#ocm-outer-page-wrapper {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+/* A div that should wrap everything you want to shift when the menu comes into view */
 #ocm-page-wrapper {
 	position: relative;
 	width: 100%;

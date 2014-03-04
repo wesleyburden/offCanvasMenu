@@ -8,42 +8,41 @@
 	<link type="text/css" rel="stylesheet" href="offCanvasMenu.css">
 </head>
 <body>
-	<div id="ocm-page-wrapper">
-		<header class="site-header" role="banner">
-			<h1 class="site-title">Stripped Back Responsive Off-Canvas Navigation</h1>
-			<a href="#" id="ocm-open-btn" class="ocm-open-btn">Open Menu</a>
-			<nav class="ocm-main-menu">
-				<h1>Demo Navigation</h1>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Services</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-				<a href="#" id="ocm-close-btn" class="ocm-close-btn">Close Menu</a>
-			</nav>
-		</header>
-		<main class="site-content" id="site-content" role="main">
-			<h1>Introduction</h1>
-			<p>I've put this together as a starting point for development.  You won't find any pretty design but the functionailty should be working ready for you to pull into your project.  It's designed to be as light as possible, progressively enhanced and all that good stuff.</p>
-			<h2>Usage</h2>
-			<ol>
-				<li>Make sure you have a <code>div#page-wrapper</code> around all your content as this is what shifts over when the menu is activated.  Generally this would be best as the first element directly after <code><body></code></li>
-				<li>Enclose your menu in <code>nav.main-menu</code>.  This is what will be pushed off screen using some absolute positioning*.</li>
-			</ol>
+	<div id="ocm-outer-page-wrapper">
+		<div id="ocm-page-wrapper">
+			<header class="site-header" role="banner">
+				<h1 class="site-title">Stripped Back Responsive Off-Canvas Navigation</h1>
+				<a href="#" id="ocm-open-btn" class="ocm-open-btn">Open Menu</a>
+				<nav class="ocm-main-menu">
+					<h1>Demo Navigation</h1>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<a href="#" id="ocm-close-btn" class="ocm-close-btn">Close Menu</a>
+				</nav>
+			</header>
+			<main class="site-content" id="site-content" role="main">
+				<h1>Heading</h1>
+				<p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic.</p>
+
+<p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+
+<p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress. Corn amaranth salsify bunya nuts nori azuki bean chickweed potato bell pepper artichoke.</p>
+
+<p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jÃ­cama salsify.</p>
+
+<p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+
+<p>Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra azuki bean corn fava bean mustard tigernut jÃ­cama green bean celtuce collard greens avocado quandong fennel gumbo black-eyed pea. Grape silver beet watercress potato tigernut corn groundnut. Chickweed okra pea winter purslane coriander yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane earthnut pea tomato spring onion azuki bean gourd. Gumbo kakadu plum komatsuna black-eyed pea green bean zucchini gourd winter purslane silver beet rock melon radish asparagus spinach.</p>
+			</main>
 			
-			<p>* The absolute positioning allows for a height of 100% making for a full height background to the menu area.  Be careful declaring position on any of .main-menu's parent elements as this will affect it's positioning.  <code>position: relative;</code> is set on <code>#page-wrapper</code>.</p>
-			
-			<h2>Roadmap</h2>
-			<p>Add swipe close (and maybe open?) functionality for touch devices</p> 
-			
-			<h2>Credits</h2>
-			<p>This is heavily based on <a href="http://dbushell.com/‎">David Bushell's</a> code from <a href="http://coding.smashingmagazine.com/2013/01/15/off-canvas-navigation-for-responsive-website/">this article on Smashing Magazine</a></p>
-		</main>
-		<footer class="site-footer">
-			<p>Made by <a href="https://twitter.com/wesleyburden">Wesley Burden</a> with help from cleverer people than me.</p>		
-		</footer>
-	</div>
+			<footer class="site-footer">
+				<p>Made by <a href="https://twitter.com/wesleyburden">Wesley Burden</a> with help from cleverer people than me.</p>
+				<p>Text content from <a href="http://veggieipsum.com">Veggie Ipsum</a>.  Solarized colour scheme from <a href="http://ethanschoonover.com/solarized">Ethan Schoonover</a>.
+			</footer>
 <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
 <script type="text/javascript" src="jquery.offCanvasMenu-0.1.js"></script>
 <script>
