@@ -1,5 +1,4 @@
-
-# Readme
+# Off Canvas Menu
 I've put this together as a starting point for development.  You won't find any pretty design, just the functionality you need to get it working so you can style it within your project.  It's designed to be as light as possible, progressively enhanced and all that good stuff.  I'm open to any suggestions or improvements...
 
 ## Features
