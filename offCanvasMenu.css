@@ -25,7 +25,7 @@
 	display: none;
 }
 
-/* These styles push the nav tag off canvas and show it when the .active-menu class is added to the body by jQuery.  */
+/* These styles push the nav tag off canvas and show it when the .is_active-ocm class is added to the body by jQuery.  */
 @media screen and (min-width: 0) and (max-width: 40em) {
 
 	.js .ocm-main-menu {
