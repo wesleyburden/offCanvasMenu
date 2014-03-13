@@ -1,0 +1,28 @@
+{
+  "name": "jquery.offCanvasMenu",
+  "version": "0.1",
+  "main": "jquery.offCanvasMenu-0.1.js",
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "homepage": "https://github.com/wesleyburden/offCanvasMenu",
+  "authors": [
+    "Wesley Burden <wesley@nebulodesign.com>"
+  ],
+  "description": "A design free jquery off canvas navigation module",
+  "keywords": [
+    "responsive",
+    "navigation",
+    "off",
+    "canvas",
+    "menu",
+    "jquery"
+  ],
+  "license": "WTFPL",
+  "ignore": [
+    "**/.*",
+    "demo.html",
+    "demo.css",
+    "bower.json"
+  ]
+}
