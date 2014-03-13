@@ -1,0 +1,8 @@
+{
+    "name": "offCanvasMenu",
+    "version": "0.1",
+    "main": "jquery.offCanvasMenu-0.1.js",
+    "dependencies": {
+        "jquery": "latest"
+    }
+}
