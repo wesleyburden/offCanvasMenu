@@ -21,8 +21,6 @@
   "license": "WTFPL",
   "ignore": [
     "**/.*",
-    "demo.html",
-    "demo.css",
     "bower.json",
     "jquery-1.10.2.min.js"
   ]
